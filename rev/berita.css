@@ -1,0 +1,144 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family:"seoe ui", arial, sans-serif;
+}
+
+body
+{
+	background-color: #f8fbf4;
+	background-image: url("image/background.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	font-size: 14px;
+}
+
+/*Heading*/
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "arial", impact, arial, sans-serif;
+	font-weight: normal;
+}
+
+a
+{
+	text-decoration: 
+}
+/*Wrapper*/
+#wrapper
+{
+	width: 720px;
+	margin: 0 auto;
+}
+
+/*Header*/
+#header
+{
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	background: #1eae8b;
+	color: white;
+}
+
+/*logo*/
+#logo
+{
+	font-family: "arial", impact, sans-serif;
+	float: left;
+	font-size: 40px;
+}
+
+/*menu*/
+#menu
+{
+	float: right;
+	list-style: none;
+	margin-top: 10px;
+}
+#menu li
+{
+	display: inline;
+}
+#menu li a
+{
+	padding: 5px 10px;
+	border-right: 2px solid #1a8c6f;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#menu li:last-child a
+{
+	border-right: none;
+}
+#menu li a:hover {
+	transition-duration: 0.4s;
+	background-color: #1a8c6f;
+}
+
+
+/*Slideshow*/
+#slideshow
+{
+	position: relative;
+}
+#slideshow h1
+{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	font-weight: normal;
+}
+
+/*Langkah*/
+#langkah
+{
+	overflow: hidden;
+	background: white;
+	margin: 10px 0;
+	display: inline-block;
+	background: #e3e3e3;
+}
+#langkah h2
+{
+	padding: 8px;
+	width: 305px;
+}
+#langkah .kolom
+{
+	width: 305px;
+	margin: 10px;
+	padding: 0 30px 0 0;
+	float: left;
+}
+#langkah .kolom:last-child
+{
+	background: none;
+}
+
+/*Footer*/
+#footer
+{
+	border-top: 3px dashed #2be0b0;
+	padding: 10px;
+	background: #1eae8b;
+}
+#footer p
+{
+	float: left;
+	margin-left: 30px;
+	list-style: none;
+}
+
+#footer-menu li
+{
+	display: inline;
+	margin-right: 20px;
+}
+#footer-menu li a
+{
+	color: #fff;
+	text-decoration: none;
+}
